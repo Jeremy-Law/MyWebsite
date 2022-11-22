@@ -1,0 +1,12 @@
+:root{
+    --MainColor: #88f257;
+    --BackGroundColor: #c7c9c5;
+}
+body{
+    background-image: url("CasinoPic.PNG");
+}
+h1{
+    color: var(--BackGroundColor);
+    text-align: center;
+    font-size: 6em;
+}

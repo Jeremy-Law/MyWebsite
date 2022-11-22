@@ -11,6 +11,9 @@ def home():
 def about():
     return render_template('aboutMe.html')
 
+@app.route('/Projects')
+def projects():
+    return render_template('Projects.html')
 
 if __name__ == '__main__':
     app.run()
