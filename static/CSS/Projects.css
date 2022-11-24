@@ -2,5 +2,6 @@ body{
     background-color: var(--BackGroundColor);
 }
 h1{
+    text-align: center;
     color: var(--MainColor);
 }

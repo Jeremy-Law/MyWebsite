@@ -1,14 +1,14 @@
 body{
-    background-color: var(--MainColor);
+    background-color: var(--BackGroundColor);
 }
 h1{
-    color: var(--BackGroundColor);
+    color: #88f257;
     text-align: center;
     font-size: 6em;
 }
 button{
     width: 90px;
     height: 40px;
-    color: var(--BackGroundColor);
+    color: #c7c9c5;
     opacity: 0.4;
 }
