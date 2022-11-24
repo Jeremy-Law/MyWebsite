@@ -1,0 +1,11 @@
+:root{
+    --MainColor: #c7c9c5;
+    --AltColor: #0f347a;
+}
+body{
+    background-color: #c7c9c5;
+}
+h1{
+    color: var(--AltColor);
+    text-align: center;
+}

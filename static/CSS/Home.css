@@ -10,3 +10,9 @@ h1{
     text-align: center;
     font-size: 6em;
 }
+button{
+    width: 90px;
+    height: 40px;
+    color: var(--BackGroundColor);
+    opacity: 0.4;
+}
