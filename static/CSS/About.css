@@ -1,7 +1,14 @@
 body{
-    background-color: var(--BackGroundColor);
+    background-color: var(--MainColor);
 }
 h1{
-    color: var(--MainColor);
+    color: var(--BackGroundColor);
     text-align: center;
+    font-size: 6em;
+}
+button{
+    width: 90px;
+    height: 40px;
+    color: var(--BackGroundColor);
+    opacity: 0.4;
 }

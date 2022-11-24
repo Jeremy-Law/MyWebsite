@@ -1,0 +1,6 @@
+body{
+    background-color: var(--BackGroundColor);
+}
+h1{
+    color: var(--MainColor);
+}
