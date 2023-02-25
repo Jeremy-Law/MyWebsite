@@ -7,6 +7,46 @@
 </head>
 <body>
 <h1> My Projects </h1>
-<button>Home</button>
+<button onclick="toHome()">Home</button>
+<script>
+    function toHome(){
+        window.location.href = "http://127.0.0.1:5000/"
+}
+</script>
+<h2>CSE 220: Systems Programming</h2>
+<p1>
+    My Systems programming class was my first dive into how a computer works at a lower level.
+    Throughout this course we start with<br> becoming familiar with the C language and end with some
+    advanced projects like thread management and dynamic memory allocators.<br>
+    All projects in this class were done entirely in C and my final grade was an A-.
+</p1>
+<h3>Conways Game of Life</h3>
+<p1>
+    Our first real project was to design conways game of life in a fixed area unlike the real game which takes place over an infinite space.<br>
+    We were provided the rules and a GUI for testng, then we were sent on our way. The rules are the following:<br>
+    1. Any live cell with two or three live neighbours survives.<br>
+    2. Any dead cell with three live neighbours becomes a live cell.<br>
+    3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.<br>
+    For more clarification on how the game works, <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"> Use this link </a></br>
+    I got a 100% on this project and thought it was a good first project to get familiar with the C language.
+</p1>
+<h3>Priority Queues</h3>
+<p1>
+    The second project was my first real dive into what a pointer is. Before this class I did not know or care what a pointer is,
+    but now<br> I understand what it is and some important uses thanks to this project and others. In case you couldn't tell by the name of the<br>
+    project, we built a basic priority queue. It had some basic functions like enqueue, dequeue, and insert some basic structures in a linked list using pointers and pointer math.
+</p1>
+<h3>Dynamic Memory Allocator</h3>
+<p1>
+    Skipping ahead, my favorite project across all the courses I've taken is a basic dynamic memory allocator. For those who may not know what that is,<br>
+    a dynamic memory allocator will ask for memory from the operating system and distribute it to a program as needed. Ours was not advanced and should not be<br>
+    used on a large system as it never gave any memory back to the OS for efficiency reasons. But by the time the project was due, we could use it to run some<br>
+    basic system commands such as printing files to the terminal.<br>
+    I got a 100% on this project and found it very satisfying when I could run commands and they would work correctly.
+</p1>
+</h2>CSE 250: Data Structures</h2>
+<p1>
+    This course was my first course in working with data structures and making programs efficient.
+</p1>
 </body>
 </html>

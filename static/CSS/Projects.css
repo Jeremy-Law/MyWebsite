@@ -1,7 +1,29 @@
 body{
     background-color: var(--BackGroundColor);
 }
+body{
+    background-image: url('michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg');
+}
 h1{
+    font-size: 80px;
     text-align: center;
     color: var(--MainColor);
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+}
+p1{
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+a{
+    color: aqua;
 }

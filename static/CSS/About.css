@@ -1,8 +1,8 @@
 body{
-    background-color: var(--BackGroundColor);
+    background-image: var(--BackGroundColor);
 }
 h1{
-    color: #88f257;
+    color: var(--MainColor);
     text-align: center;
     font-size: 6em;
 }

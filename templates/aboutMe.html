@@ -7,7 +7,16 @@
 </head>
 <body>
     <h1>About me</h1>
-    <button id = "toHome">Home</button>
-    <button id = "toProjects">Projects</button>
+    <button onclick="toHome()">Home</button>
+    <button onclick="toProject()">Projects</button>
+
+    <script>
+    function toProject(){
+        window.location.href ="http://127.0.0.1:5000/Projects"
+}
+    function toHome(){
+        window.location.href="http://127.0.0.1:5000/"
+}
+    </script>
 </body>
 </html>
